@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script src="../lib/digest.js"></script>
+  <script src="../lib/hmac.js"></script>
+  <script src="../lib/hotp.js"></script>
+  <title></title>
+</head>
+<body>
+  <script>
+    var str = MessageDigest.create(MessageDigest.SHA1).
+    update("abc").
+    digestStr(true);
+    console.log(str);
+    h = {
+      12: "a"
+    };
+    console.log(Hotp.encodeBase32([97,98,99,100,101,102]));
+    console.log(Hotp.decodeBase32("MFRGGZDFMY======"));
+  </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "blirhotp",
+  "version": "0.0.0",
+  "description": "HOTP implementation by JavaScript",
+  "main": "dist/blirhotp.js",
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "repository": {
+    "url": "r44234",
+    "type": "frsf"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

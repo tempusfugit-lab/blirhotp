@@ -1,0 +1,36 @@
+{
+  "name": "blirhotp",
+  "version": "0.0.0",
+  "description": "HOTP implementation by JavaScript",
+  "main": "dist/blirhotp.js",
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.5.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-conventional-changelog": "^1.1.0",
+    "grunt-groc": "^0.4.5",
+    "grunt-jscs": "^1.1.0",
+    "grunt-lintspaces": "^0.5.1",
+    "grunt-umd": "^2.3.0",
+    "jasmine": "^2.4.1",
+    "jit-grunt": "^0.7.0",
+    "jshint-stylish": "^0.2.0",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-jasmine": "^0.3.8",
+    "load-grunt-config": "^0.10.0",
+    "time-grunt": "^0.3.2"
+  }
+}
