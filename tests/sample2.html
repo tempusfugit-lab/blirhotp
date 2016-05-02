@@ -18,6 +18,12 @@
     };
     console.log(Hotp.encodeBase32([97,98,99,100,101,102]));
     console.log(Hotp.decodeBase32("MFRGGZDFMY======"));
+
+    console.log(Hotp.encodeBase32(Hmac.xk("3132333435363738393031323334353637383930")));
+    var secret = Hotp.decodeBase32("GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ");
+    var hotpNumber = Hotp.generate(secret, 0);
+
+    console.log(hotpNumber);
   </script>
 </body>
 </html>
