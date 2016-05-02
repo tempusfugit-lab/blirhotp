@@ -1,6 +1,6 @@
 module.exports = {
   options: {
-    banner: '<%= banner %>'
+    banner: '<%= longBanner %>'
   },
   dist: {
     src: '<%= concat.dist.dest %>',

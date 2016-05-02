@@ -1,12 +1,12 @@
 {
   "name": "blirhotp",
-  "version": "0.0.0",
+  "version": "0.5.0",
   "description": "HOTP implementation by JavaScript",
   "main": "dist/blirhotp.js",
   "readmeFilename": "README.md",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Tempus Fugit,Inc.",
+    "email": "iida@tempusfugit.jp"
   },
   "license": "MIT",
   "engines": {

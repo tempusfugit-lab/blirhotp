@@ -15,7 +15,8 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'lib/*.js',
+      "dist/blirhotp.min.js",
+      //'lib/*.js',
       'tests/specs/*.js'
     ],
 

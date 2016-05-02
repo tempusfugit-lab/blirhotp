@@ -1,16 +1,26 @@
 # blirhotp
 
-[![Build Status](https://secure.travis-ci.org/yiida/blirhotp.png?branch=master)](http://travis-ci.org/yiida/blirhotp)
-
 HOTP implementation by JavaScript
 
 ## Installation
 
-```
-$ npm install --save-dev blirhotp
-```
+Read in script block.
+
+example:
+````
+<script src="blirhotp.min.js"></script>
+````
 
 ## Usage
+
+````
+// create secret key by hex strings.
+var secret = Hmac.xk("3132333435363738393031323334353637383930");
+// generate HOTP with the key and count 0.
+var hotpNumber = Hotp.generate(secret, 0);
+
+console.log(hotpNumber); // 755224
+````
 
 ## Documentation
 
@@ -18,4 +28,4 @@ $ npm install --save-dev blirhotp
 
 ## License
 
-MIT
+See LICENSE file.
