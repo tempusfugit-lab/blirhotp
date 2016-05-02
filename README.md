@@ -1,10 +1,10 @@
 # blirhotp
 
-HOTP implementation by JavaScript
+HOTP implementation by JavaScript.
 
 ## Installation
 
-Read in script block.
+Read in a script block.
 
 example:
 ````
@@ -14,9 +14,9 @@ example:
 ## Usage
 
 ````
-// create secret key by hex strings.
+// create a secret key by hex strings.
 var secret = Hmac.xk("3132333435363738393031323334353637383930");
-// generate HOTP with the key and count 0.
+// generate an HOTP value with the key and count 0.
 var hotpNumber = Hotp.generate(secret, 0);
 
 console.log(hotpNumber); // 755224
