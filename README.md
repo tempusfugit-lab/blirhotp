@@ -1,6 +1,8 @@
 # blirhotp
 
-HOTP implementation by JavaScript.
+An HOTP implementation in JavaScript.
+
+This library is written in Vanilla JS, and does not depend on any other libraries.
 
 ## Installation
 
@@ -24,10 +26,6 @@ var hotpNumber = Hotp.generate(secret, 0);
 
 console.log(hotpNumber); // 755224
 ````
-
-## Documentation
-
-## API
 
 ## License
 
